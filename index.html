@@ -55,7 +55,7 @@
     <script type= "module">
         const $button = document.querySelector('.Open')
         $button.addEventListener('click', async()=>{
-            const result = await fetch('http://172.31.42.143/open')
+            const result = await fetch('https://172.31.42.143/open')
             if(result.status===200) alert('Ingresa!!')
         })
     </script>
